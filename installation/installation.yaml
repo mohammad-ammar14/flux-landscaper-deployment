@@ -28,7 +28,7 @@ spec:
               targetType: landscaper.gardener.cloud/kubernetes-cluster
 
           deployExecutions:
-            - name: example
+            - name: podinfo
               type: GoTemplate
               template: |
                 deployItems:
@@ -41,7 +41,7 @@ spec:
                     config:
                       apiVersion: helm.deployer.landscaper.gardener.cloud/v1alpha1
                       kind: ProviderConfiguration
-                      name: demo-provider-test
+                      name: podinfo-landscaper-test
                       namespace: example
                       createNamespace: true
                       chart:
