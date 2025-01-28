@@ -1,0 +1,16 @@
+# base url of the component repository
+REPO_BASE_URL="europe-docker.pkg.dev/sap-gcp-cp-k8s-stable-hub/landscaper-examples/examples"
+
+# path to the kubeconfig of the target cluster used in the target of the resource cluster
+TARGET_CLUSTER_KUBECONFIG_PATH="/Users/i572887/Desktop/worksace/ns2/landscaper-validation/landscaper-target-adopted-configs/adopted-landscaper-kubeconfig.yaml"
+
+
+
+# Common repo context
+CONTEXT="ocm67837800100900008826"
+
+# Component Version
+VERSION="50.0.0"
+
+# namespace for resources in the resource cluster
+NAMESPACE="example"
